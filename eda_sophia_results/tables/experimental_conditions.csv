@@ -1,0 +1,10 @@
+﻿experiment,corrente_A,velocidade_bico_mm_min,vazao_massica_g_min
+L1,120,60,10
+L2,160,60,15
+L3,200,60,20
+L4,120,80,10
+L5,160,80,15
+L6,200,80,20
+L7,120,100,10
+L8,160,100,15
+L9,200,100,20

@@ -1,0 +1,7 @@
+﻿intervalo,numero_experimentos,percentual_minimo_preservado,percentual_maximo_preservado,menor_numero_frames,maior_numero_frames
+0-100%,9,100.0,100.0,1750,4234
+0-90%,9,90.0,90.00944733112895,1575,3811
+10-90%,9,79.99527633443552,80.0,1400,3387
+20-90%,9,70.0,70.00472366556448,1225,2964
+30-90%,9,59.99055266887105,60.0,1050,2540
+40-90%,9,50.0,50.0,875,2117

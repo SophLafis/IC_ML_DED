@@ -1,0 +1,19 @@
+﻿verificacao,resultado,detalhe
+presença dos nove experimentos,ok,"['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8', 'L9']"
+alvos preservados,ok,"['y_original', 'y_reconstruido']"
+ausência da coluna genérica y,ok,coluna removida
+ausência de valores nulos nos alvos,ok,"{'y_original': 0, 'y_reconstruido': 0}"
+larguras positivas,ok,"{'original_min_mm': 5.969, 'reconstruido_min_mm': 6.047538606485964}"
+ausência de frames duplicados,ok,0
+posições temporais normalizadas válidas,ok,"{'minimo': 0.0, 'maximo': 1.0}"
+orientação invertida em L1–L9,ok,"{'frames': ['invertida'], 'perfis_densos': ['invertida']}"
+confiança descritiva alta em L1–L9,ok,"{'frames': ['alta'], 'perfis_densos': ['alta']}"
+hashes dos arquivos de entrada ativados,ok,"{'calcular_hashes': True, 'hashes_ausentes': 0}"
+seis intervalos por experimento,ok,"{'L1': 6, 'L2': 6, 'L3': 6, 'L4': 6, 'L5': 6, 'L6': 6, 'L7': 6, 'L8': 6, 'L9': 6}"
+três terços com 100 posições,ok,"{'numero_linhas': 27, 'pontos_por_terco': [100]}"
+estudo-piloto disponível,ok,"['L2', 'L6', 'L9']"
+seis combinações no estudo de repetibilidade,ok,"[('L2', 'operador_01'), ('L2', 'operador_02'), ('L6', 'operador_01'), ('L6', 'operador_02'), ('L9', 'operador_01'), ('L9', 'operador_02')]"
+três repetições por operador e experimento,ok,"[{'experimento': 'L2', 'operador': 'operador_01', 'numero_repeticoes': 3}, {'experimento': 'L2', 'operador': 'operador_02', 'numero_repeticoes': 3}, {'experimento': 'L6', 'operador': 'operador_01', 'numero_repeticoes': 3}, {'experimento': 'L6', 'operador': 'operador_02', 'numero_repeticoes': 3}, {'experimento': 'L9', 'operador': 'operador_01', 'numero_repeticoes': 3}, {'experimento': 'L9', 'operador': 'operador_02', 'numero_repeticoes': 3}]"
+18 reconstruções no estudo de repetibilidade,ok,18
+nove condições experimentais,ok,"{'numero_condicoes': 9, 'numero_experimentos': 9}"
+contrastes calculados nos dois alvos,ok,"{'contrastes_velocidade': 3, 'contrastes_niveis': 3}"

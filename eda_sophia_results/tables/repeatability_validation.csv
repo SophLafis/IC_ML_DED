@@ -1,0 +1,11 @@
+﻿verificacao,resultado,detalhe
+experimentos esperados,ok,"['L2', 'L6', 'L9']"
+operadores esperados,ok,"['operador_01', 'operador_02']"
+uma linha por experimento e operador,ok,"linhas=6, combinações=[('L2', 'operador_01'), ('L2', 'operador_02'), ('L6', 'operador_01'), ('L6', 'operador_02'), ('L9', 'operador_01'), ('L9', 'operador_02')]"
+três repetições por combinação,ok,[3]
+três comparações par a par por combinação,ok,[3]
+ausência de valores nulos,ok,{}
+métricas de magnitude não negativas,ok,viés e diferença de comprimento podem apresentar sinal
+RMSE intraoperador maior ou igual ao MAE,ok,relação matemática esperada
+RMSE entre operadores maior ou igual ao MAE,ok,relação matemática esperada
+métricas entre operadores consistentes por experimento,ok,as métricas entre operadores devem ser iguais nas duas linhas do mesmo experimento
